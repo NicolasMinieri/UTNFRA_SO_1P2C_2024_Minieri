@@ -1,0 +1,121 @@
+l
+ll repogit/
+mv ssh_backup.tgz repogit/
+ll repogit/
+l
+ll
+cd repogit/
+git clone git@github.com:holaprtf/UTNFRA_SO_1P2C_2024_Minieri.git
+ll
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+ll
+ll UTN-FRA_SO_Examenes/
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+~/.bashrc && history -a
+sudo ~/.bashrc && history -a
+source  ~/.bashrc  && history -a
+l
+ll UTNFRA_SO_1P2C_2024_Minieri/
+ll UTNFRA_SO_1P2C_2024_Minieri/RTA_SCRIPT_Examen_20241008/
+ll UTNFRA_SO_1P2C_2024_Minieri/RTA_ARCHIVOS_Examen_20241008/
+ll UTNFRA_SO_1P2C_2024_Minieri/RTA_SCRIPT_Examen_20241008/
+ll /
+l
+cd
+l
+mkdir -p /multimedia/{pelicula,musica}/archivo{1..5}
+cd /home/
+mkdir -p /multimedia/{pelicula,musica}/archivo{1..5}
+l
+cd /home/vagrant/
+mkdir -p /multimedia/{pelicula,musica}/archivo{1..5}
+sudo mkdir -p /multimedia/{pelicula,musica}/archivo{1..5}
+ll
+ll repogit/
+ll repogit/UTNFRA_SO_1P2C_2024_Minieri/
+ll
+L /
+l /
+l /multimedia/
+l /multimedia/musica/
+sudo rm -r /multimedia/
+l /
+mkdir -p multimedia/{pelicula,musica}/archivo{1..5}
+l
+ll
+rm -r multimedia/
+l
+cd repogit/
+ll
+cd
+ll
+history
+ll
+l
+ll repogit/
+cd UTNFRA_SO_1P2C_2024_Minieri
+cd repogit/UTNFRA_SO_1P2C_2024_Minieri/
+l
+cd /home/
+l
+cd /home/vagrant/
+l
+mkdir -p Examenes-UTN/{alumno_{1..3},profesores}
+l
+ll Examenes-UTN/
+rm -r Examenes-UTN/
+l
+mkdir -p Examenes-UTN/{alumno_{1..3}/parcial_{1..3},profesores}
+ll Examenes-UTN/
+ll Examenes-UTN/alumno_1
+rm -r Examenes-UTN/
+mkdir -p /Examenes-UTN/{alumno_{1..3}/parcial_{1..3},profesores}
+sudo mkdir -p /Examenes-UTN/{alumno_{1..3}/parcial_{1..3},profesores}
+ll /
+l
+ll repogit/
+cd repogit/
+ll
+touch punto_1.sh
+l
+vim punto_1.sh 
+sudo rm -r /Examenes-UTN/
+l /Examenes-UTN/
+l /
+history
+l
+ll UTNFRA_SO_1P2C_2024_Minieri/
+ll UTNFRA_SO_1P2C_2024_Minieri/RTA_SCRIPT_Examen_20241008/
+cat UTNFRA_SO_1P2C_2024_Minieri/RTA_SCRIPT_Examen_20241008/
+cat UTNFRA_SO_1P2C_2024_Minieri/RTA_SCRIPT_Examen_20241008/Punto_A.sh 
+./UTNFRA_SO_1P2C_2024_Minieri/RTA_SCRIPT_Examen_20241008/Punto_A.sh 
+ll /Examenes-UTN/
+ll /Examenes-UTN/profesores/
+rm -r Examenes-UTN/
+sudo rm -r /Examenes-UTN/
+ll /
+l
+cd UTNFRA_SO_1P2C_2024_Minieri/
+l
+git add .
+git commit -m "feat: agregue un script que crea directorios en la craiz del sistema"
+nicolasminieri141@gmail.com
+git config user.email nicolasminieri141@gmail.com
+git config user.name holaprtf
+git commit -m "feat: agregue un script que crea directorios en la craiz del sistema"
+git push
+l
+ll
+history
+ll
+ll RTA_SCRIPT_Examen_20241008/
+L
+l
+ll RTA_SCRIPT_Examen_20241008/
+l
+cd RTA_SCRIPT_Examen_20241008/
+ll
+ll /home/
+ll /home/vagrant/
+history -a
+cat /home/vagrant/.bash_history
