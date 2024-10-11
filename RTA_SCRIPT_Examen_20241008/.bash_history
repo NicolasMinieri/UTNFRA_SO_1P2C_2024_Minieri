@@ -1,90 +1,48 @@
-cd repogit/
+sudo apt update
+sudo apt install tree
 ll
-git add .
+tree /Examenes-UTN/
+cd repogit/
 ./script_ssh.sh.sh 
-git add .
-ll /home/vagrant/
-ll /home/vagrant/.ssh/
-git status
 ll
 cd UTNFRA_SO_1P2C_2024_Minieri/
 ll
 git add .
-git commit -m "feat: agregue hasta el punto c los usuarios y sus grupos"
-ll
-git add RTA_ARCHIVOS_Examen_20241008/
-git commit -m "feat: agregue la carpeta de archivos"
+git add -m "fix: arregle el particionado punto_b"
+git commit -m "fix: arregle el particionado punto_b"
+git status
 git push
-cd ..
-git add .
-git add UTNFRA_SO_1P2C_2024_Minieri/
-cd UTNFRA_SO_1P2C_2024_Minieri/
+l
+cd RTA_SCRIPT_Examen_20241008/
+cat Punto_B.sh 
 ll
-git add RTA_ARCHIVOS_Examen_20241008/
-git status
-git commit -m "feat: agregue la carpeta de archivos"
-git commit -a "feat: agregue la carpeta de archivos"
-git commit -m "feat: agregue la carpeta de archivos"
-git add .
-git status
-git commit -m "feat: agregue hasta el punto c los usuarios y sus grupos"
-git push
-ll
-git add RTA_ARCHIVOS_Examen_20241008/
-git status
-git commit -m "feat: agregue la carpeta de archivos"
-git push origin master
-git add RTA_ARCHIVOS_Examen_20241008/
-git commit -m "feat: agregue la carpeta de archivos"
-git push origin master
-git add RTA_ARCHIVOS_Examen_20241008/
-git status
-git add RTA_ARCHIVOS_Examen_20241008
-git status
-cd ..
-ll
-cd UTNFRA_SO_1P2C_2024_Minieri/
-ll
-cd repogit/
-git add .
-git commit -m "feat: agregue la carpeta de archivos"
-git push origin master
-cd ..
-ll
-git add .
-git commit -m "feat: correccion la carpeta de archivos"
+cd /home/vagrant/
+./repogit/punto_3.sh 
+tree /Examenes-UTN/
+ls -l /Examenes-UTN/
+ls -l /Examenes-UTN/alumno_3
+ls -l /Examenes-UTN/alumno_3/parcial_2
+ls -l /Examenes-UTN/
+cd /Examenes-UTN/alumno_1
+sudo chmod -R 700 /Examenes-UTN/alumno_1
+ls -l /Examenes-UTN/
+
+sudo chmod -R 760 /Examenes-UTN/alumno_2
+ls -l /Examenes-UTN/
+ls -l /Examenes-UTN/alumno_2/
+sudo chmod -R 750 /Examenes-UTN/alumno_1
+ls -l /Examenes-UTN/alumno_2/
+ls -l /Examenes-UTN/
+sudo chmod -R 700 /Examenes-UTN/alumno_3
+ls -l /Examenes-UTN/
+sudo chown -R p1c2_2024_P1 /Examenes-UTN/profesores
+ls -l /Examenes-UTN/
 history -a
+sudo chmod -R 700 /Examenes-UTN/profesores
+ls -l /Examenes-UTN/
+sudo chmod -R 770 /Examenes-UTN/profesores
+ls -l /Examenes-UTN/
+cd /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Minieri/
 ll
-cd RTA_ARCHIVOS_Examen_20241008/
-ll
-touch archivo_prueba.txt
-git status
-cd ..
 git add .
-git status
-rm -r RTA_ARCHIVOS_Examen_20241008/archivo_prueba.txt 
-ll RTA_ARCHIVOS_Examen_20241008/ 
-git status
-history -a
-cat /home/vagrant/.bash_history 
-cd /home/vagrant/ 
-cp .bash_history repogit/UTNFRA_SO_1P2C_2024_Minieri/RTA_SCRIPT_Examen_20241008/
-ll repogit/UTNFRA_SO_1P2C_2024_Minieri/RTA_SCRIPT_Examen_20241008/
-git add .
-cd repogit/UTNFRA_SO_1P2C_2024_Minieri/
-git add .
-git commit -m "feat: ADD agruegue el archivo .bash_history"
-git push
-git push origin master
-git pull
-ll
-git pull origin master --no-rebase
-git pull origin master --rebase
-git pull
-git add .
-git commit -m "feat: ADD agruegue el archivo .bash_history"
-git push
-ll
-ll RTA_SCRIPT_Examen_20241008/
-git status
 history -a
