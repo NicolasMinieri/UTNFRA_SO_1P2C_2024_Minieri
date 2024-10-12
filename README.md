@@ -1,6 +1,6 @@
 # UTNFRA_SO_1P2C_2024_Minieri
 
-Nombre: Nicolas
+Nombre: Nicolas Agustin
 
 Apellido: Minieri
 

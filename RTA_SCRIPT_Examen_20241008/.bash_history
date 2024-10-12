@@ -93,3 +93,19 @@ cd repogit/UTNFRA_SO_1P2C_2024_Minieri/RTA_SCRIPT_Examen_20241008/
 ll $HOME
 cat $HOME/.bash_history 
 history -a
+cat repogit/Readme.md 
+cat repogit/UTNFRA_SO_1P2C_2024_Minieri/README.md 
+touch archivo.txt
+rm -r archivo.txt 
+cd repogit/
+./script_ssh.sh.sh 
+cd UTNFRA_SO_1P2C_2024_Minieri/
+ll
+vim README.md 
+ll
+git add .
+git commit -m "feat: Archivo README.md completado"
+git push
+cd RTA_SCRIPT_Examen_20241008/
+ll
+history -a
