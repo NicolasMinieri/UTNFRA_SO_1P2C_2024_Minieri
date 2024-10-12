@@ -1,0 +1,12 @@
+
+
+Mi ip publica es: 191.85.73.71
+
+Mi usuario es: vagrant
+
+Mi hash de mi usuario es: $y$j9T$f7V.J8o8/5JXqaI3xUKKQ0$oND2iaEkOI22AcHc9kfKwylXqBi.VixFO/cPGuxMD..
+
+Mi ip publica es 191.85.73.71
+
+La url de mi repositorio es: git@github.com:holaprtf/UTNFRA_SO_1P2C_2024_Minieri.git
+
