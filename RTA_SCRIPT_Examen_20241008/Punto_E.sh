@@ -4,7 +4,8 @@
 
 touch ../RTA_ARCHIVOS_Examen_20241008/filtro_basico.txt
 
-
+#vaciar archivo.txt por si llega a estar escrito
+echo "" > ../RTA_ARCHIVOS_Examen_20241008/filtro_basico.txt
 
 
 grep MemTotal /proc/meminfo >> ../RTA_ARCHIVOS_Examen_20241008/filtro_basico.txt
