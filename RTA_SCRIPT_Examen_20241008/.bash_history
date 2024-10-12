@@ -46,3 +46,50 @@ cd /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Minieri/
 ll
 git add .
 history -a
+ll
+ll repogit/
+l
+ll
+curl -s ifconfig.me
+cd repogit/
+ll
+./script_ssh.sh.sh 
+ll
+tree
+ll
+curl -s ifconfig.me
+cd UTNFRA_SO_1P2C_2024_Minieri/
+git remote get-url origin
+echo $HOME
+echo $HOME | awk -F '/' '{print $1 print $2}'
+echo $HOME | awk -F '/' '{print $1}'
+echo $HOME | awk -F '/' '{print $2}'
+echo $HOME | awk -F '/' '{print $3}'
+$HOME | awk -F '/' '{print $3}'
+sudo cat /etc/shadow
+sudo grep vagrant /etc/shadow
+sudo grep vagrant /etc/shadow | awk -F ':' '{print $2}'
+sudo grep vagrant /etc/shadow | awk -F ':' '{print $1}'
+sudo grep vagrant /etc/shadow | awk -F ':' '{print $2}'
+echo $HOME | awk -F '/' '{print $3}'
+cd RTA_SCRIPT_Examen_20241008/
+./Punto_F.sh
+
+./Punto_F.sh
+ll
+cd ..
+ll
+git add .
+git commit -m "feat: se agrego el script del punto f"
+git push
+cd /home/vagrant/
+ll
+cd repogit/UTNFRA_SO_1P2C_2024_Minieri/RTA_SCRIPT_Examen_20241008/
+./Punto_A.sh 
+./Punto_B.sh 
+./Punto_C.sh 
+./Punto_D.sh 
+./Punto_E.sh 
+ll $HOME
+cat $HOME/.bash_history 
+history -a
